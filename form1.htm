@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sighn Up form</title>
+</head>
+<body>
+    <center><h1>Login your details</h1></center>
+    <p>Please fill in this form to Sign Up an account.</p>
+    <hr>
+    <form action="https://www.wikipedia.org">
+        <div>
+            <label for=""></label>
+            First name : <input type="text" name="my first name" id=""placeholder="First name...." required>
+           <label for="Lname"></label>
+            Last name : <input type="text" name=" my last name" id="Lname"placeholder="Last name....." required>
+        </div>
+        <div>
+            Email : <input type="text" name="my email" id="" placeholder="email@example.com"  pattern=".+@globex.com"  required>
+            Pasword : <input type="password" name="my password" id=""placeholder="Password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required>
+        </div>
+        Profile picture : <input type="file" name="my profile picture" id="" required>
+        DOB : <input type="date" name="my dob" id="" required>
+        <div>
+            Mobile no. : 
+            <select name="seleting" id="">
+                <option value="">+91</option>
+                <option value="">+97</option>
+                <option value="">+99</option>
+                <option value="">+80</option>
+                <option value="">+95</option>
+            </select>
+            <input type="number"name="ph.no" min="10" max="12"id="" required >
+            Adress : <input type="text" name="my adress" id="" required>
+        </div>
+            Gender  :
+            <li>
+                <ul>
+                    <input type="radio" name="gender" id="">Male <br>
+                    <input type="radio" name="gender" id="">Female <br>
+                    <input type="radio" name="gender" id="">Other 
+                </ul>
+            </li>
+        </div>
+        <div>
+            Write about yourself :<br> <textarea name="my text" id="" cols="50" rows="5"></textarea>
+        </div>
+        <div>
+             <p><input type="checkbox" name="" id="" required>
+             I have raed and agree to the <a href="#" style="color:dodgerblue">Terms & service</a>.</P>
+        </div>
+        <div>
+            <input type="submit" name="submit now" value="Submit now" id="">
+            <input type="submit" name=""value="Reset now" id="">
+        </div>
+    </form>
+</body>
+</html>
